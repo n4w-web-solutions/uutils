@@ -1,6 +1,6 @@
 {
   "name": "uutils2021",
-  "version": "0.1.5",
+  "version": "0.0.1",
   "description": "A NPM package that exports functions to help front-end developers in day-by-day.",
   "main": "src/index.js",
   "keywords": [
