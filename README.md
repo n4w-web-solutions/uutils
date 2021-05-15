@@ -1,10 +1,10 @@
-# uutils
+# uutils2021
 
-uutils is a small library to help you automatically load libraries into a single namespace. 
+uutils2021 is a NPM package that exports functions to help front-end developers in day-by-day.
 
 
 ```sh
-$ npm install uutils
+$ npm i uutils2021 --save
 ```
 
 ## Example usage
