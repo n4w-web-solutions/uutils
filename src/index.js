@@ -1,4 +1,4 @@
-exports.uutils2021 = () => {
+module.exports = () => {
     return {
         /*
         How to hide all elements specified?
