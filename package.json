@@ -1,0 +1,32 @@
+{
+  "name": "uutils",
+  "version": "0.0.1",
+  "description": "A NPM package that exports functions to help developers in day-by-day.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel ./src -d ./lib",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "utils",
+    "js",
+    "npm",
+    "node",
+    "functions",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieroribeiro/uutils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pieroribeiro/uutils/issues"
+  },
+  "homepage": "https://github.com/pieroribeiro/uutils#readme",
+  "author": "Piero Ribeiro",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
